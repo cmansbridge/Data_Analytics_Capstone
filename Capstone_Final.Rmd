@@ -40,18 +40,21 @@ The datasets utilized are from the OFGEM and UK government weather websites.  Al
 There are three separate data sets that were put together:  Mean UK Temperature, UK Day Ahead Price, and UK Resource Mix.
 
 DataSet 1: **UKprice**  *OFGEM*  UK Monthly Average Day Ahead Energy Prices 1/2015 - 2/2018
+
 For the UK Day Ahead Price [UKprice], I have collected the monthly Day Ahead Price information
 ```{r DataSet1, echo=FALSE, message=FALSE, warning=FALSE}
 head(UKprice,10)
 ```
 
 DataSet 2: **UKtemp**  *UK National Weather*  UK Mean Temperature 1/2015 - 2/2018
+
 For the Mean UK Temperature [UKtemp], I have collected the Monthly Mean UK Temperature from 2015 - 2018. 
 ```{r DataSet2, echo=FALSE, message=FALSE, warning=FALSE}
 head(UKtemp,10)
 ```
 
 DataSet 3: **UKmix**   *OFGEM*   UK Average Energy Resource Mix 1/2015 - 2/2018
+
 For the UK Resource Mix [UKmix], I have the percentages by month and quarter from 2017 forward.
 ```{r DataSet3, echo=FALSE, message=FALSE, warning=FALSE}
 head(UKmix,10)
@@ -153,7 +156,7 @@ Bio     | Dbl
 PumpStorage | Dbl
 OtherResource | Dbl
  
-This is a sample of the UKprice. 
+This is a sample of the UKenergy dataset. 
 ```{r DataSet4, echo=FALSE, message=FALSE, warning=FALSE}
 head(UKenergy,4)
 ```
